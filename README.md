@@ -2,14 +2,12 @@
 # Hello
 A reproducible analysis of morphological measurements from the Palmer Penguins dataset, examining variation in body dimensions across penguin species in the Palmer Archipelago, Antarctica.
 
-<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" width=50%>
 yippee penguins
 
 ## About the Data
 
 This project uses data collected by [Dr Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) at the [Palmer Station Long Term Ecological Research](https://pallter.marine.rutgers.edu/) site in Antarctica.
 
-**Species studied:** Gentoo, Chinstrap, and Adelie penguins. 
 
 **Research location:** [TODO: Which three islands were the penguins observed on? Hint: check the `island` column in `data/penguins_raw.csv`]
 
@@ -41,10 +39,10 @@ The analysis generates a multi-panel figure combining four plots:
 ## Project Structure
 
 ```
-penguin-analysis/
+
 ├── README.md              ← You are here!
 ├── .gitignore             ← [TODO: What does a .gitignore file do?]
-├── data/
+
 │   └── penguins_raw.csv   ← [TODO: Describe this file in one sentence]
 ├── functions/
 │   ├── plotting_functions.R  ← [TODO: Describe what this file contains]
@@ -55,7 +53,7 @@ penguin-analysis/
 ## How to Run
 
 1. Open `run_analysis_SOLUTIONS.R` in RStudio
-2. Install required packages: `tidyverse`, `janitor`, `palmerpenguins`, `patchwork`
+
 3. Run the script from top to bottom
 4. Outputs are saved to the `figures/` folder
 
